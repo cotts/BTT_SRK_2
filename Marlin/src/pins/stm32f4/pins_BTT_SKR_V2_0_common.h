@@ -63,7 +63,7 @@
 //
 #define X_DIAG_PIN                          PC1   // X-STOP
 #define Y_DIAG_PIN                          PC3   // Y-STOP
-#define Z_DIAG_PIN                          PC0   // Z-STOP
+// #define Z_DIAG_PIN                          PC0   // Z-STOP
 #define E0_DIAG_PIN                         PC2   // E0DET
 #define E1_DIAG_PIN                         PA0   // E1DET
 
@@ -136,7 +136,7 @@
 //
 // Filament Runout Sensor
 //
-#define FIL_RUNOUT_PIN                      PC2   // E0DET
+#define FIL_RUNOUT_PIN                      PC0   // E0DET
 #define FIL_RUNOUT2_PIN                     PA0   // E1DET
 
 //
